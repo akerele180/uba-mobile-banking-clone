@@ -1,0 +1,27 @@
+:root {
+  --ubaRed: #d51709;
+}
+
+.fSJgnl {
+  grid-area: 14/1 / span 1 / span 1;
+}
+.sc-gsDKAQ {
+  background-image: url("../../bgimage.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.sc-gsDKAQ::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(
+    163.71deg,
+    rgba(215, 25, 32, 0.31) 42.68%,
+    rgba(255, 255, 255, 0.0806) 63.77%
+  );
+  width: 100vw;
+  height: 100vh;
+}
