@@ -49,7 +49,7 @@ const Container = styled.div`
   grid-template-rows: repeat(20, 1fr);
 `;
 const TopIcons = styled.div`
-  grid-area: 2/1 / span 2 / span 1;
+  grid-area: 1/1 / span 2 / span 1;
   align-items: center;
   display: flex;
   justify-content: space-between;
@@ -96,5 +96,5 @@ const BottomIcons = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  grid-area: 18/1 / span 2 / span 1;
+  grid-area: 19/1 / span 2 / span 1;
 `;
